@@ -1,0 +1,5 @@
+base_brush_thickness: 5
+base_eraser_thickness: 20
+max_thickness_multiplier: 4
+smoothing_window: 5
+smoothing_type: "one_euro"

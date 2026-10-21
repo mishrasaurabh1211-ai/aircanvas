@@ -1,0 +1,31 @@
+[project]
+name = "aircanvas"
+version = "0.1.0"
+description = "Real-time computer vision application for drawing in the air using hand gestures."
+requires-python = ">=3.11"
+dependencies = [
+    "opencv-python>=4.8.0",
+    "mediapipe==0.10.0",
+    "numpy>=1.24.0",
+    "pydantic>=2.0.0",
+    "pyyaml>=6.0",
+    "loguru>=0.7.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+    "ruff>=0.1.0",
+    "mypy>=1.5",
+    "pre-commit>=3.0"
+]
+
+[tool.mypy]
+strict = true
+packages = ["aircanvas"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+exclude = ["air_canvas"]

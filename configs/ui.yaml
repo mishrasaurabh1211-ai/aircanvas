@@ -1,0 +1,61 @@
+buttons:
+  - id: "COLOR_RED"
+    x: 20
+    y: 20
+    w: 60
+    h: 50
+    color: [0, 0, 255]
+  - id: "COLOR_GREEN"
+    x: 90
+    y: 20
+    w: 60
+    h: 50
+    color: [0, 255, 0]
+  - id: "COLOR_BLUE"
+    x: 160
+    y: 20
+    w: 60
+    h: 50
+    color: [255, 0, 0]
+  - id: "COLOR_YELLOW"
+    x: 230
+    y: 20
+    w: 60
+    h: 50
+    color: [0, 255, 255]
+  - id: "COLOR_MAGENTA"
+    x: 300
+    y: 20
+    w: 60
+    h: 50
+    color: [255, 0, 255]
+  - id: "TOOL_ERASER"
+    x: 370
+    y: 20
+    w: 60
+    h: 50
+    color: [200, 200, 200]
+  - id: "SIZE_UP"
+    x: 440
+    y: 20
+    w: 40
+    h: 50
+    color: [150, 150, 150]
+  - id: "SIZE_DOWN"
+    x: 490
+    y: 20
+    w: 40
+    h: 50
+    color: [100, 100, 100]
+  - id: "ACTION_CLEAR"
+    x: 540
+    y: 20
+    w: 60
+    h: 50
+    color: [50, 50, 50]
+  - id: "ACTION_SAVE"
+    x: 610
+    y: 20
+    w: 60
+    h: 50
+    color: [100, 200, 100]
